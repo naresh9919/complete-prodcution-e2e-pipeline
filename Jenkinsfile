@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label "java_node1"
-    }
+    agent any
     tools {
         jdk "java17"   //java17 is a label which we updated in global tool configuration
         maven "maven3"
